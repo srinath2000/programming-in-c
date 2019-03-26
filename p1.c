@@ -1,3 +1,4 @@
+//program to read a floating point number from user and print its integer and fractional part separately
 #include<stdio.h>
 int main()
 {
