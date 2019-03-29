@@ -1,3 +1,4 @@
+/*program to print maximum and minimum of three numbers*/
 #include<stdio.h>
 void main()
 { int x,y,z;
