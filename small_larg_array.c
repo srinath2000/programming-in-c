@@ -1,3 +1,4 @@
+/*program to find the smallest and largest no in an array*/
 #include<stdio.h>
 void main()
 { int a[100],i,small,larg,n;
