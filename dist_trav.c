@@ -1,3 +1,4 @@
+/*program to find the distance travelled using distance formula*/
 #include<stdio.h>
 int main()
 {
