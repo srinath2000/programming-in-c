@@ -1,3 +1,4 @@
+/*program to chechk if a numnber is prime or not*/
 #include<stdio.h>
 int main()
 {
