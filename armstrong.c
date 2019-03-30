@@ -1,3 +1,4 @@
+/*program to check whether the given number is Armstrong or not*/
 #include<stdio.h>
 int main()
 {
