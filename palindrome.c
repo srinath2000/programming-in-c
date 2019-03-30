@@ -1,3 +1,4 @@
+/*program to reverse a number and check whether it is palindrome*/
 #include<stdio.h>
 int main()
 {
