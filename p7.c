@@ -1,3 +1,4 @@
+/*program to chechk whether a number is divisible by 7*/
 #include<stdio.h>
 int main()
 {
