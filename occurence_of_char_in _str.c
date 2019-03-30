@@ -1,3 +1,5 @@
+/*Write a program to count the number of occurrences of a particular character in a
+given string*/
 #include<stdio.h>
 #include<string.h>
 int main()
