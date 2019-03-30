@@ -1,3 +1,5 @@
+/* menu driven program to find the area of the following geometrical shapes.
+a. Rectangle b. Circle c. Triangle d. Square*/
 #include<stdio.h>
 int main()
 {
