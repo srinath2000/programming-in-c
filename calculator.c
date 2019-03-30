@@ -1,3 +1,4 @@
+/*menudriven program to implement a simple calculator */
 #include<stdio.h>
 int main()
 {
