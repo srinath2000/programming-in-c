@@ -1,14 +1,12 @@
+/*program to do the following operations on an n x n matrix
+a) Matrix addition.
+b) Sum of diagonal elements
+c) Transpose of a matrix.*/
 #include<stdio.h>
 #include<string.h>
 int main()
 { 
 int i,j,a[100][100],b[100][100],n,s,ds=0;
-
-/*printf("menu\n");
-printf("1.addition\n");
-printf("2.diagonal\n");
-printf("3.transpose\n");
-printf("enter your choice\n");*/
   printf("Enter   no and elements  : ");
   scanf("%d",&n);
   for(i=0;i<n;i++)
