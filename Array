@@ -1,3 +1,4 @@
+/* Program to read details and marks of students and display topper and subject topper*/
 #include<stdio.h>
 struct st{
 		char nm[50];
