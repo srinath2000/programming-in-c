@@ -1,3 +1,4 @@
+//program to add two polynomials
 #include<stdio.h>
 struct pol
 {
