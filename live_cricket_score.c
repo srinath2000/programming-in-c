@@ -1,3 +1,4 @@
+//program to print the live cricket score during a one day match
 #include<stdio.h>
 #include<string.h>
 struct cricket
