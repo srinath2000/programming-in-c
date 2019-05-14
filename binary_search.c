@@ -1,6 +1,4 @@
 //search an element using pointers
-
-
 #include<stdio.h>
 void main()
 	{
