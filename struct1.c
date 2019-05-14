@@ -1,3 +1,8 @@
+1.	Create an array of structures for storing student information. Each student’s information contains name, roll no, mark1, mark2, mark3 and mark4. Write a menu driven program to:
+i.	Insert details of a student.
+ii.	List the names of the students who have failed in more than 2 subjects.
+iii.	List the class topper and subject wise topper.
+
 #include<stdio.h>
 struct st{
 		char nm[50];
