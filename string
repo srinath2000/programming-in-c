@@ -1,3 +1,7 @@
+write a program to create single dimentional array with 10 elements and do the following operations
+	(A)display array
+	(B)sort the elements in an array
+	(C)replace an element with another element 
 #include<stdio.h>
 void main()
 {
