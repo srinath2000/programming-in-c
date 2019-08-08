@@ -1,0 +1,54 @@
+#include<stdio.h>
+void main()
+{
+	int a[10],i,j,n,temp=0,rep,new;
+	printf("Enter the no of elements  :");
+	scanf("%d",&n);
+	printf("Enter the elements  :");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+	printf("%d\n",a[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		for(j=i+1;j<n;j++)
+		{
+	if(a[i]>a[j]) //ascending order 
+	{
+	temp=a[i];
+	a[i]=a[j];
+	a[j]=temp;
+	}
+	}
+	}
+	printf("SORTED ELEMENTS......\n");
+        for(i=0;i<n;i++)
+	{
+		printf("%d\t",a[i]);
+	}
+
+	printf("Enter the element to be replaced :");
+	scanf("%d",&rep);
+	printf("Enter the element to be replaced with :");
+	scanf("%d",&new);
+	for(i=0;i<n;i++)
+	{
+	if (a[i]==rep)
+
+	a[i]=new;
+	
+	printf("%d\t",a[i]);
+	}
+}
+
+
+
+
+
+
+	
+
