@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{	char a[20],b[20];
+	printf("Enter the first string  :");
+	fgets(a,20,stdin);
+	printf("Enter the second string  :");
+	fgets(b,20,stdin);
+	strcat(a,b);
+	printf("string obtained on contaenation :%s",a);
+
+}
