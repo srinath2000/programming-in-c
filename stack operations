@@ -1,3 +1,4 @@
+menudriven c program to implement stack using 1D array and perform push,peep,pop,isempty,isfull,display.
 #include<stdio.h>
 int stack[100],top=-1,i,n;
 void push();
