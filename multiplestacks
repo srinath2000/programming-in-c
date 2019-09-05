@@ -1,3 +1,5 @@
+//menudriven c program to implement stack using one dimentional array and to perform the following operations
+//on the stack: push,pop,peep,is empty,is full,display
 #include<stdio.h>
 int stack[20];
 int top1=-1;
@@ -76,7 +78,7 @@ void push(int item,int x)
 		printf("\nStack1 or Stack2:");
 		prinjtf("\n Enter ur choice as 1 or 2 ");
 		scanf("%d",&y);
-		printf("*********~*****~****~menu~****~*****~*******");
+		printf("********~*****~****~menu~****~*****~*******");
 	        printf("\n1.~PUSH\n2.~POP\n3.~PEEP\n4.~IsEmpty\n5.~IsFull\n6.~Display\n7.~Exit\n  Enter your choice  :");
 		scanf("%d",&x);
 		switch(x)
